@@ -7,6 +7,7 @@ body{
     background-image: url("../Images/back.jpeg");
     background-repeat: no-repeat;
     background-size: 100%;
+    z-index: -500;
 
 }
 
@@ -84,13 +85,13 @@ footer{
     width: 250px;
     height: 250px;
     top: 90px;
-    left: 300px;
+    left: 350px;
     
 }
 
 #foto:hover{
     top: 85px;
-    left: 295px;
+    left: 345px;
 }
 
  #info{
@@ -103,12 +104,12 @@ footer{
     border-radius: 25px;
     padding-left: 10px;
     top: 130px;
-    left: 600px;
+    left: 650px;
 }
 
 #info:hover{
     top: 125px;
-    left: 595px;
+    left: 645px;
 }
 
 #info2{
@@ -121,12 +122,12 @@ footer{
     border-radius: 25px;
     padding-left: 10px;  
     top: 400px;
-    left: 300px;
+    left: 350px;
 }
 
 #info2:hover{
     top: 395px;
-    left: 295px;
+    left: 345px;
 }
 
 #info3{
@@ -140,12 +141,12 @@ footer{
     padding-left: 10px;
     margin-top: 14px;
     top: 350px;
-    left: 600px;
+    left: 650px;
 }
 
 #info3:hover{
     top: 345px;
-    left: 595px;
+    left: 645px;
 }
 
 #info p{
@@ -236,6 +237,29 @@ footer{
 
  #course1{
     position: absolute;
+    background-color: white; 
+    width: 250px;
+    height: 200px;
+    display: inline-block;
+    border: 2px solid;
+    border-radius: 25px;
+    padding-left: 10px;
+    margin-top: 14px;
+    top: 50px;
+    left: 125px;
+    
+
+ }
+
+ #course1:hover{
+    top: 45px;
+    left: 120px;
+
+ }
+
+
+ #course2{
+    position: absolute;
     background-color: white;
     width: 250px;
     height: 200px;
@@ -244,13 +268,36 @@ footer{
     border-radius: 25px;
     padding-left: 10px;
     margin-top: 14px;
-    top: 350px;
-    left: 600px;
+    top: 50px;
+    left: 450px;
 
  }
 
+ #course2:hover{
+    top: 45px;
+    left: 445px;
+ }
 
- #scourse2{
+  #course3{
+    position: absolute;
+    background-color: white;
+    width: 250px;
+    height: 200px;
+    display: inline-block;
+    border: 2px solid;
+    border-radius: 25px;
+    padding-left: 10px;
+    margin-top: 14px;
+    top: 50px;
+    left: 775px;
+ }
+
+ #course3:hover{
+    top: 45px;
+    left: 770px;
+ }
+
+  #course4{
     position: absolute;
     background-color: white;
     width: 250px;
@@ -261,7 +308,72 @@ footer{
     padding-left: 10px;
     margin-top: 14px;
     top: 350px;
-    left: 600px;
+    left: 125px;
 
  }
 
+ #course4:hover{
+    top: 345px;
+    left: 120px;
+ }
+
+   #course5{
+    position: absolute;
+    background-color: white;
+    width: 250px;
+    height: 200px;
+    display: inline-block;
+    border: 2px solid;
+    border-radius: 25px;
+    padding-left: 10px;
+    margin-top: 14px;
+    top: 350px;
+    left: 450px;
+
+ }
+
+ #course5:hover{
+    top: 345px;
+    left: 445
+ }
+
+   #course6{
+    position: absolute;
+    background-color: white;
+    width: 250px;
+    height: 200px;
+    display: inline-block;
+    border: 2px solid;
+    border-radius: 25px;
+    padding-left: 10px;
+    margin-top: 14px;
+    top: 350px;
+    left: 775px;
+ }
+
+ #course6:hover{
+    top: 345px;
+    left: 770px;
+ }
+
+ #course7{
+    background-color: white;
+    position: absolute;
+    width: 350px;
+    height: 300px;   
+    display: inline-block;
+    margin-left: 260px;
+    border: 2px solid;
+    border-radius: 25px;
+    margin-top: 100px;
+    
+
+ }
+
+#java{
+    width: 350px;
+    height: 300px; 
+  
+}
+
+  
