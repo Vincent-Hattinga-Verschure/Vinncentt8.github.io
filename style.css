@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("Images/back.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #6b6262;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+footer{
+    position: relative;
+    right: 0;
+    top: 520px;
+    text-align: right;
+
+}
+
+#foto{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    top: 90px;
+    left: 300px;
+    
+}
+
+#foto:hover{
+    top: 85px;
+    left: 295px;
+}
+
+ #info{
+    position: absolute;
+    background-color: white;
+    width: 250px;
+    height: 200px;   
+    display: inline-block;
+    border: 2px solid;
+    border-radius: 25px;
+    padding-left: 10px;
+    top: 130px;
+    left: 600px;
+}
+
+#info:hover{
+    top: 125px;
+    left: 595px;
+}
+
+#info2{
+    position: absolute;
+    background-color: white;
+    width: 250px;
+    height: 200px;   
+    display: inline-block;
+    border: 2px solid;
+    border-radius: 25px;
+    padding-left: 10px;  
+    top: 400px;
+    left: 300px;
+}
+
+#info2:hover{
+    top: 395px;
+    left: 295px;
+}
+
+#info3{
+    position: absolute;
+   background-color: white;
+    width: 250px;
+    height: 200px;
+    display: inline-block;
+    border: 2px solid;
+    border-radius: 25px;
+    padding-left: 10px;
+    margin-top: 14px;
+    top: 350px;
+    left: 600px;
+}
+
+#info3:hover{
+    top: 345px;
+    left: 595px;
+}
+
+#info p{
+    padding: 3px;
+}
+
+#info2 p{
+    padding: 3px;
+}
+
+#info3 p{
+    padding: 3px;
+}
+
+ main{
+    max-width: 980px;
+    margin: 0 auto;
+
+ }
+
+ #sectie{
+    width: 250px;
+    display: inline-block;
+
+
+ }
+
+ img{
+    margin-top: 15px;
+    border: 2px solid;
+    border-radius: 25px;
+ }
+
+ #course{
+    position: absolute;
+    background-color: white;
+    width: 450px;
+    height: 400px;   
+    display: inline-block;
+    margin-left: 215px;
+    border: 2px solid;
+    border-radius: 25px;
+    padding-left: 10px;
+    margin-top: 100px;
+
+ }
+
+  #future{
+    position: absolute;
+    background-color: white;
+    width: 450px;
+    height: 400px;   
+    display: inline-block;
+    margin-left: 215px;
+    border: 2px solid;
+    border-radius: 25px;
+    padding-left: 10px;
+    margin-top: 100px;
+
+ }
+
+ #adresme{
+    position: absolute;
+    background-color: white;
+    width: 250px;
+    height: 200px;
+    display: inline-block;
+    margin-left: 16px;
+    border: 2px solid;
+    border-radius: 25px;
+    padding-left: 10px;
+    margin-top: 14px;
+}
+
+ #adresschool{
+    position: absolute;
+    background-color: white;
+    width: 250px;
+    height: 200px;
+    display: inline-block;
+    margin-left: 16px;
+    border: 2px solid;
+    border-radius: 25px;
+    padding-left: 10px;
+    margin-top: 14px;
+}
+
