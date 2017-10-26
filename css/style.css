@@ -31,6 +31,7 @@ body{
 .dropdown {
     float: left;
     overflow: hidden;
+
 }
 
 .dropdown .dropbtn {
@@ -52,6 +53,8 @@ body{
     background-color: #f9f9f9;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+     border: 2px solid;
+    border-radius: 25px;
     z-index: 1;
 }
 
@@ -66,10 +69,14 @@ body{
 
 .dropdown-content a:hover {
     background-color: #ddd;
+ 
+
 }
 
 .dropdown:hover .dropdown-content {
     display: block;
+     border: 2px solid;
+    border-radius: 25px;
 }
 
 footer{
@@ -170,12 +177,13 @@ footer{
  #sectie{
     width: 250px;
     display: inline-block;
+    
 
 
  }
 
- img{
-    margin-top: 15px;
+ img:hover{
+    margin-top: -2px;
     border: 2px solid;
     border-radius: 25px;
  }
@@ -225,13 +233,19 @@ footer{
     position: absolute;
     background-color: white;
     width: 250px;
-    height: 200px;
+    height: 100px;
     display: inline-block;
     margin-left: 16px;
     border: 2px solid;
     border-radius: 25px;
     padding-left: 10px;
     margin-top: 14px;
+    top: 300px;
+    left: 733px;
+}
+
+#pad{
+    padding: 8px;
 }
 
 
@@ -360,20 +374,24 @@ footer{
     background-color: white;
     position: absolute;
     width: 350px;
-    height: 300px;   
+    height: 317px;   
     display: inline-block;
     margin-left: 260px;
     border: 2px solid;
     border-radius: 25px;
     margin-top: 100px;
+    padding: 5px;
     
 
  }
 
 #java{
     width: 350px;
-    height: 300px; 
+    height: 284px; 
+    border: 2px solid;
+    border-radius: 25px;
   
 }
+
 
   
