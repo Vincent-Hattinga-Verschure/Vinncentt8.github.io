@@ -1,0 +1,81 @@
+body{
+	font-style: Arial;
+}
+
+#left{
+	width: 200px;
+	float: left;
+	background-color: grey;
+}
+
+#Waarom{
+	width: 600px;
+	margin: 0 auto;
+}
+
+#motivatie{
+	width: 600px;
+	margin: 0 auto;
+}
+
+#wijze{
+	width: 600px;
+	margin: 0 auto;
+}
+
+#elkaar{
+	width: 600px;
+	margin: 0 auto;
+}
+
+#Ontwikkeling{
+	width: 600px;
+	margin: 0 auto;
+}
+
+#welkom{
+	width: 600px;
+	margin: 0 auto;
+}
+
+#me{
+	width: 600px;
+	margin: 0 auto;
+}
+
+#waarom{
+	width: 600px;
+	margin: 0 auto;
+}
+
+#links{
+	width: 200px;
+	float: left;
+	background-color: grey;
+}
+
+#contact{
+	width: 600px;
+	margin: 0 auto;
+}
+
+#foto{
+	float: right;
+	
+}
+li a {
+	display: block;
+	color: black;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #F2F2F2;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}

@@ -177,7 +177,7 @@ footer{
  #sectie{
     width: 250px;
     display: inline-block;
-    
+}
 
 
  }
@@ -197,7 +197,6 @@ footer{
     margin-left: 215px;
     border: 2px solid;
     border-radius: 25px;
-    padding-left: 10px;
     margin-top: 100px;
 
  }
@@ -257,7 +256,6 @@ footer{
     display: inline-block;
     border: 2px solid;
     border-radius: 25px;
-    padding-left: 10px;
     margin-top: 14px;
     top: 50px;
     left: 125px;
@@ -280,7 +278,6 @@ footer{
     display: inline-block;
     border: 2px solid;
     border-radius: 25px;
-    padding-left: 10px;
     margin-top: 14px;
     top: 50px;
     left: 450px;
@@ -300,7 +297,6 @@ footer{
     display: inline-block;
     border: 2px solid;
     border-radius: 25px;
-    padding-left: 10px;
     margin-top: 14px;
     top: 50px;
     left: 775px;
@@ -319,7 +315,6 @@ footer{
     display: inline-block;
     border: 2px solid;
     border-radius: 25px;
-    padding-left: 10px;
     margin-top: 14px;
     top: 350px;
     left: 125px;
@@ -339,7 +334,6 @@ footer{
     display: inline-block;
     border: 2px solid;
     border-radius: 25px;
-    padding-left: 10px;
     margin-top: 14px;
     top: 350px;
     left: 450px;
@@ -359,7 +353,6 @@ footer{
     display: inline-block;
     border: 2px solid;
     border-radius: 25px;
-    padding-left: 10px;
     margin-top: 14px;
     top: 350px;
     left: 775px;
@@ -391,6 +384,15 @@ footer{
     border: 2px solid;
     border-radius: 25px;
   
+}
+
+.maat{
+    width: 250px;
+    height: 200px;
+    border-radius: 25px;
+    margin: 0 auto;
+
+   
 }
 
 
