@@ -85,7 +85,7 @@ body{
 footer{
     position: relative;
     right: 0;
-    top: 520px;
+    top: 570px;
     text-align: right;
 
 }
@@ -95,14 +95,16 @@ footer{
     width: 250px;
     height: 250px;
     top: 90px;
-    left: 350px;
+    left: 320px;
     border: 2px solid;
     border-radius: 25px;
+    padding: 10px;
+    background-color: white;
 }
 
 #foto:hover{
     top: 85px;
-    left: 345px;
+    left: 315px;
     border: 2px solid;
     border-radius: 25px;
     transition: 0.3s ease;
@@ -112,18 +114,19 @@ footer{
     position: absolute;
     background-color: white;
     width: 250px;
-    height: 200px;   
+    height: 250px;   
     display: inline-block;
     border: 2px solid;
     border-radius: 25px;
     padding-left: 10px;
-    top: 130px;
-    left: 650px;
+     top: 90px;
+    left: 640px;
+    padding: 10px;
 }
 
 #info:hover{
-    top: 125px;
-    left: 645px;
+    top: 85px;
+    left: 635px;
     transition: 0.3s ease;
 }
 
@@ -137,18 +140,19 @@ footer{
     border-radius: 25px;
     padding-left: 10px;  
     top: 400px;
-    left: 350px;
+    left: 320px;
+    padding: 10px;
 }
 
 #info2:hover{
     top: 395px;
-    left: 345px;
+    left: 315px;
     transition: 0.3s ease;
 }
 
 #info3{
     position: absolute;
-   background-color: white;
+    background-color: white;
     width: 250px;
     height: 200px;
     display: inline-block;
@@ -156,39 +160,21 @@ footer{
     border-radius: 25px;
     padding-left: 10px;
     margin-top: 14px;
-    top: 350px;
-    left: 650px;
+    top: 385px;
+    left: 640px;
+    padding: 10px;
 }
 
 #info3:hover{
-    top: 345px;
-    left: 645px;
+    top: 380px;
+    left: 635px;
     transition: 0.3s ease;
 }
 
-#info p{
-    padding: 3px;
-}
-
-#info2 p{
-    padding: 3px;
-}
-
-#info3 p{
-    padding: 3px;
-}
 
  main{
     max-width: 980px;
     margin: 0 auto;
-
- }
-
- #sectie{
-    width: 250px;
-    display: inline-block;
-}
-
 
  }
 
@@ -209,7 +195,7 @@ footer{
     border: 2px solid;
     border-radius: 25px;
     margin-top: 100px;
-    padding: 5px;
+    padding: 10px;
     top: 50px;
     left: 155px;
 }
@@ -235,6 +221,7 @@ footer{
     margin-top: 100px;
     top: 50px;
     left: 155px;
+    padding: 10px;
 
  }
 
@@ -248,7 +235,7 @@ footer{
     position: absolute;
     background-color: white;
     width: 250px;
-    height: 80px;
+    height: 100px;
     display: inline-block;
     margin-left: 16px;
     border: 2px solid;
@@ -256,7 +243,13 @@ footer{
     padding-left: 10px;
     margin-top: 14px;
     left: 690px;
-    top: 430px;
+    top: 338px;
+}
+
+#adresme:hover{
+    left: 685px;
+    top: 333px;
+    transition: 0.3s ease;
 }
 
 
@@ -272,12 +265,12 @@ footer{
     padding-left: 10px;
     margin-top: 14px;
     left: 737px;
-    top: 300px;
+    top: 227px;
 }
 
 #adresschool:hover{
     left: 732px;
-    top: 295px;
+    top: 222px;
     transition: 0.3s ease;
 }
 
@@ -493,7 +486,7 @@ footer{
 
   #welkom{
     top: 150px;
-    left: 230px;
+    left: 280px;
     position: absolute;
   }
 
