@@ -96,12 +96,15 @@ footer{
     height: 250px;
     top: 90px;
     left: 350px;
-    
+    border: 2px solid;
+    border-radius: 25px;
 }
 
 #foto:hover{
     top: 85px;
     left: 345px;
+    border: 2px solid;
+    border-radius: 25px;
     transition: 0.3s ease;
 }
 
@@ -206,8 +209,18 @@ footer{
     border: 2px solid;
     border-radius: 25px;
     margin-top: 100px;
+    padding: 5px;
+    top: 50px;
+    left: 155px;
+}
 
+ #course:hover{
+    top: 45px;
+    left: 145px;
+    transition: 0.3s ease;
  }
+
+
 
   #future{
     position: absolute;
@@ -220,7 +233,15 @@ footer{
     border-radius: 25px;
     padding-left: 10px;
     margin-top: 100px;
+    top: 50px;
+    left: 155px;
 
+ }
+
+ #future:hover{
+    top: 45px;
+    left: 145px;
+    transition: 0.3s ease;
  }
 
  #adresme{
@@ -388,9 +409,17 @@ footer{
     border-radius: 25px;
     margin-top: 100px;
     padding: 5px;
-    
+    left: 150px;
+    top: 100px;
+}
 
- }
+#course7:hover{
+    left: 145px;
+    top: 95px;
+    transition: 0.3s ease;
+
+
+}
 
 #java{
     width: 350px;
@@ -409,5 +438,13 @@ footer{
    
 }
 
+#school{
+    border: 2px solid;
+    border-radius: 25px;
+}
 
-  
+
+  #school:hover{
+    border: 2px solid;
+    border-radius: 25px;
+  }
