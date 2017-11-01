@@ -89,7 +89,6 @@ footer{
 }
 
 #foto{
-    position: relative;
     width: 250px;
     height: 250px;
     border: 2px solid;
@@ -104,10 +103,9 @@ footer{
 }
 
  #info{
-    position: relative;
     background-color: white;
     width: 250px;
-    height: 265px;
+    height: 213px;
     display: inline-block;
     border: 2px solid;
     border-radius: 25px;
@@ -123,14 +121,12 @@ footer{
 }
 
 #info2{
-    position: relative;
     background-color: white;
     width: 250px;
-    height: 265px;   
+    height: 194px;  
     display: inline-block;
     border: 2px solid;
     border-radius: 25px;
-    padding-left: 10px;  
     padding: 10px;
 }
 
@@ -140,10 +136,9 @@ footer{
 }
 
 #info3{
-    position: relative;
     background-color: white;
     width: 250px;
-    height: 265px;
+    height: 193px;
     display: inline-block;
     border: 2px solid;
     border-radius: 25px;
@@ -263,7 +258,6 @@ footer{
 
 
  #course1{
-    position: relative;
     background-color: white; 
     width: 250px;
     height: 200px;
@@ -281,7 +275,6 @@ footer{
 
 
  #course2{
-    position: relative;
     background-color: white;
     width: 250px;
     height: 200px;
@@ -298,7 +291,6 @@ footer{
 }
 
   #course3{
-    position: relative;
     background-color: white;
     width: 250px;
     height: 200px;
@@ -315,7 +307,6 @@ footer{
 }
 
   #course4{
-    position: relative;
     background-color: white;
     width: 250px;
     height: 200px;
@@ -332,7 +323,6 @@ footer{
 }
 
    #course5{
-    position: relative;
     background-color: white;
     width: 250px;
     height: 200px;
@@ -348,7 +338,6 @@ footer{
 }
 
    #course6{
-    position: relative;
     background-color: white;
     width: 250px;
     height: 200px;
@@ -470,6 +459,7 @@ footer{
     margin-top: 20px;
     align-items: center;
 }
+
 #index{
     width: 400px;
     height: 150px;
