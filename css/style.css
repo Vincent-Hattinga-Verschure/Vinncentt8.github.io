@@ -83,7 +83,7 @@ body{
 footer{
     position: relative;
     right: 0;
-    top: 570px;
+    top: 13px;
     text-align: right;
 
 }
@@ -92,8 +92,6 @@ footer{
     position: relative;
     width: 250px;
     height: 250px;
-    top: 40px;
-    left: 140px;
     border: 2px solid;
     border-radius: 25px;
     padding: 10px;
@@ -101,86 +99,82 @@ footer{
 }
 
 #foto:hover{
-    top: 70px;
-    left: 50px;
-    border: 2px solid;
+    border: 6px solid;
     border-radius: 25px;
-    transition: 0.3s ease;
 }
 
  #info{
     position: relative;
     background-color: white;
     width: 250px;
-    height: 250px;
+    height: 265px;
     display: inline-block;
     border: 2px solid;
     border-radius: 25px;
     padding-left: 10px;
-    top: 40px;
-    left: 200px;
     padding: 10px;
     line-height: 16px;
+    margin: 0 auto;
     }
 
 #info:hover{
-    top: 85px;
-    left: 635px;
-    transition: 0.3s ease;
+    border: 6px solid;
+    border-radius: 25px;
 }
 
 #info2{
     position: relative;
     background-color: white;
     width: 250px;
-    height: 200px;   
+    height: 265px;   
     display: inline-block;
     border: 2px solid;
     border-radius: 25px;
     padding-left: 10px;  
-    top: 350px;
-    left: -30px;
     padding: 10px;
 }
 
 #info2:hover{
-    top: 395px;
-    left: -25px;
-    transition: 0.3s ease;
+    border: 6px solid;
+    border-radius: 25px;
 }
 
 #info3{
     position: relative;
     background-color: white;
     width: 250px;
-    height: 200px;
+    height: 265px;
     display: inline-block;
     border: 2px solid;
     border-radius: 25px;
     padding-left: 10px;
-    top: 350px;
-    right: 570px;
     padding: 10px;
 }
 
 #info3:hover{
-    top: 380px;
-    left: 635px;
-    transition: 0.3s ease;
+    border: 6px solid;
+    border-radius: 25px;
 }
 
 
+.flex{
+    flex-direction: column;
+    display: flex;
+}
+
+.flex1{
+    flex-direction: column;
+    display: flex;
+}
+
+.flex2{
+    flex-direction: column;
+    display: flex;
+}
  main{
     max-width: 980px;
     margin: 0 auto;
 
- }
-
- img:hover{
-    margin-top: -2px;
-    border: 2px solid;
-    border-radius: 25px;
-    transition: 0.3s ease;
  }
 
  #course{
@@ -196,12 +190,10 @@ footer{
     top: 50px;
     left: 155px;
 }
-
- #course:hover{
-    top: 45px;
-    left: 145px;
-    transition: 0.3s ease;
- }
+#course:hover{
+    border: 6px solid;
+    border-radius: 25px;
+}
 
 
 
@@ -219,12 +211,10 @@ footer{
     padding: 10px;
 
  }
-
  #future:hover{
-    top: 45px;
-    left: 145px;
-    transition: 0.3s ease;
- }
+    border: 6px solid;
+    border-radius: 25px;
+}
 
  #adresme{
     position: absolute;
@@ -242,9 +232,8 @@ footer{
 }
 
 #adresme:hover{
-    left: 685px;
-    top: 333px;
-    transition: 0.3s ease;
+    border: 6px solid;
+    border-radius: 25px;
 }
 
 
@@ -264,9 +253,8 @@ footer{
 }
 
 #adresschool:hover{
-    left: 732px;
-    top: 222px;
-    transition: 0.3s ease;
+    border: 6px solid;
+    border-radius: 25px;
 }
 
 #pad{
@@ -283,18 +271,13 @@ footer{
     border: 2px solid;
     border-radius: 25px;
     margin-top: 14px;
-    top: 50px;
-    left: 125px;
-    
+   
+}
 
- }
-
- #course1:hover{
-    top: 45px;
-    left: 120px;
-    transition: 0.3s ease;
-
- }
+#course1:hover{
+    border: 6px solid;
+    border-radius: 25px;
+}
 
 
  #course2{
@@ -306,16 +289,13 @@ footer{
     border: 2px solid;
     border-radius: 25px;
     margin-top: 14px;
-    top: 50px;
-    left: 450px;
-
+    
  }
 
  #course2:hover{
-    top: 45px;
-    left: 445px;
-    transition: 0.3s ease;
- }
+    border: 6px solid;
+    border-radius: 25px;
+}
 
   #course3{
     position: relative;
@@ -326,15 +306,13 @@ footer{
     border: 2px solid;
     border-radius: 25px;
     margin-top: 14px;
-    top: 50px;
-    left: 775px;
+    
  }
 
  #course3:hover{
-    top: 45px;
-    left: 770px;
-    transition: 0.3s ease;
- }
+    border: 6px solid;
+    border-radius: 25px;
+}
 
   #course4{
     position: relative;
@@ -345,16 +323,13 @@ footer{
     border: 2px solid;
     border-radius: 25px;
     margin-top: 14px;
-    top: 350px;
-    left: 125px;
-
+    
  }
 
  #course4:hover{
-    top: 345px;
-    left: 120px;
-    transition: 0.3s ease;
- }
+    border: 6px solid;
+    border-radius: 25px;
+}
 
    #course5{
     position: relative;
@@ -365,16 +340,12 @@ footer{
     border: 2px solid;
     border-radius: 25px;
     margin-top: 14px;
-    top: 350px;
-    left: 450px;
+}
 
- }
-
- #course5:hover{
-    top: 345px;
-    left: 445px;
-    transition: 0.3s ease;
- }
+#course5:hover{
+    border: 6px solid;
+    border-radius: 25px;
+}
 
    #course6{
     position: relative;
@@ -385,15 +356,13 @@ footer{
     border: 2px solid;
     border-radius: 25px;
     margin-top: 14px;
-    top: 350px;
-    left: 775px;
+    
  }
 
  #course6:hover{
-    top: 345px;
-    left: 770px;
-    transition: 0.3s ease;
- }
+    border: 6px solid;
+    border-radius: 25px;
+}
 
  #course7{
     background-color: white;
@@ -404,16 +373,14 @@ footer{
     border: 2px solid;
     border-radius: 25px;
     padding: 5px;
-    left: 150px;
-    top: 100px;
+    top: 80px;
+    left: 250px;
+    
 }
 
 #course7:hover{
-    left: 145px;
-    top: 95px;
-    transition: 0.3s ease;
-
-
+    border: 6px solid;
+    border-radius: 25px;
 }
 
 #java{
@@ -441,15 +408,10 @@ footer{
     position: absolute;
 }
 
-
-  #school:hover{
-    top: 75px;
-    left: 155px;
-    border: 2px solid;
+#school:hover{
+    border: 6px solid;
     border-radius: 25px;
-    transition: 0.3s ease;
-  
-  }
+}
 
   #app{
     top: 150px;
@@ -460,10 +422,9 @@ footer{
   }
 
   #app:hover{
-        top: 145px;
-        left: 865px;
-        transition: 0.3s ease;
-  }
+    border: 6px solid;
+    border-radius: 25px;
+}
 
   #app1{
     top: 150px;
@@ -472,16 +433,20 @@ footer{
   }
 
   #app1:hover{
-        top: 145px;
-        left: 865px;
-        transition: 0.3s ease;
-  }
+    border: 6px solid;
+    border-radius: 25px;
+}
 
   #welkom{
     top: 150px;
     left: 280px;
     position: absolute;
   }
+
+  #welkom:hover{
+    border: 6px solid;
+    border-radius: 25px;
+}
 
  
 
@@ -493,103 +458,57 @@ footer{
     position: absolute;
 }
 
-
-  #ik:hover{
-    top: 75px;
-    left: 155px;
-    border: 2px solid;
+#ik:hover{
+    border: 6px solid;
     border-radius: 25px;
-    transition: 0.3s ease;
-  
-  }
+}
+
   .container {
     display: flex;
     flex-direction: row;
+    margin-left: 380px;
+    margin-top: 20px;
+    align-items: center;
+}
+#index{
+    width: 400px;
+    height: 150px;
+    border: 2px solid;
+    border-radius: 25px;
 }
 
-@media screen and (max-width: 1000px) {
-    main.container{
-        width: 100%;
-        line-height: 20px;
-        display: inline-block;
-        flex-direction: column;
+#indexfooter{
+    position: relative;
+    right: 0;
+    top: 573px;
+    text-align: right;
+}
 
-    }
-   body{
-        width: auto;
-        height: auto;
+#beroepfooter{
+    position: relative;
+    right: 0;
+    top: 229px;
+    text-align: right;
 
-    }
-    
-    #info{
-        top: 321px;
-        left: 40px;
-    }
-    #info2{
-        top: 340px;
-        left: 40px;
-    } 
-    #info3{
-        top: 345px;
-        left: 40px;
-    }
-    #foto {
-        top: 120px;
-        left: 40px;
-    }
-    #course{
-        top: 120px;
-        left: 40px;
-        width: 255px;
-        height: 730px;
-    }
-    #app{
-        top: 180px;
-        left: 40px;
-        height: 120px;
+}
 
-    }
-    #future{
-        top: 220px;
-        left: 40px;
-        height: 560px;
-        width: 255px;
-    }
-    #app1{
-        top: 150px;
-        left: 100px;
-        height: 150px;
-    }
-    #course1{
-        top: 30px;
-        left: 55px;
-    }
-    #course2{
-        top: 20px;
-        left: 55px;
-    }
-    #course3{
-        top: 20px;
-        left: 55px;
-    }
-    #course4{
-        top: 20px;
-        left: 55px;
-    }
-    #course5{
-        top: 20px;
-        left: 55px;
-    }
-    #course6{
-        top: 20px;
-        left: 55px;
-    }
-    #course7{
-        top: 20px;
-        left: 40px;
-        width: 265px;
-    }
-    #java{
-            width: 260px;
-    }
-    }
+#javafooter{
+    position: relative;
+    right: 0;
+    top: 242px;
+    text-align: right;
+}
+
+#footerme{
+    position: relative;
+    right: 0;
+    top: 573px;
+    text-align: right;
+}
+
+#footerschool{
+    position: relative;
+    right: 0;
+    top: 573px;
+    text-align: right;
+}
