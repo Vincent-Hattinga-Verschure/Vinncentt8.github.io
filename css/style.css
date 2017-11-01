@@ -429,6 +429,8 @@ footer{
   #welkom{
     top: 150px;
     left: 280px;
+    border: 2px solid;
+    border-radius: 25px;
     position: absolute;
   }
 
@@ -437,9 +439,7 @@ footer{
     border-radius: 25px;
 }
 
- 
-
-  #ik{
+ #ik{
     top: 80px;
     left: 160px;
     border: 2px solid;
@@ -501,4 +501,30 @@ footer{
     right: 0;
     top: 573px;
     text-align: right;
+}
+
+#pdf{
+    margin-top: 100px;
+    height: 200px;
+    width: 200px;
+    border: 2px solid;
+    border-radius: 25px;
+}
+
+#pdf:hover{
+    border: 6px solid;
+    border-radius: 25px;
+}
+
+
+#imgpdf{
+    height: 100px;
+    width: 100px;
+    padding-top: 49px;
+    padding-left: 48px;
+    padding-bottom: 53px;
+}
+
+#footerpdf{
+       top: 261px;
 }
