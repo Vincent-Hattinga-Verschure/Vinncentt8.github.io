@@ -89,11 +89,11 @@ footer{
 }
 
 #foto{
-    position: absolute;
+    position: relative;
     width: 250px;
     height: 250px;
-    top: 90px;
-    left: 320px;
+    top: 40px;
+    left: 140px;
     border: 2px solid;
     border-radius: 25px;
     padding: 10px;
@@ -101,8 +101,8 @@ footer{
 }
 
 #foto:hover{
-    top: 85px;
-    left: 315px;
+    top: 70px;
+    left: 50px;
     border: 2px solid;
     border-radius: 25px;
     transition: 0.3s ease;
@@ -112,15 +112,16 @@ footer{
     position: relative;
     background-color: white;
     width: 250px;
-    height: 250px;   
+    height: 250px;
     display: inline-block;
     border: 2px solid;
     border-radius: 25px;
     padding-left: 10px;
-     top: 90px;
-    left: 640px;
+    top: 40px;
+    left: 200px;
     padding: 10px;
-}
+    line-height: 16px;
+    }
 
 #info:hover{
     top: 85px;
@@ -137,14 +138,14 @@ footer{
     border: 2px solid;
     border-radius: 25px;
     padding-left: 10px;  
-    top: 400px;
-    left: 320px;
+    top: 350px;
+    left: -30px;
     padding: 10px;
 }
 
 #info2:hover{
     top: 395px;
-    left: 315px;
+    left: -25px;
     transition: 0.3s ease;
 }
 
@@ -157,9 +158,8 @@ footer{
     border: 2px solid;
     border-radius: 25px;
     padding-left: 10px;
-    margin-top: 14px;
-    top: 385px;
-    left: 640px;
+    top: 350px;
+    right: 570px;
     padding: 10px;
 }
 
