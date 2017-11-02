@@ -565,7 +565,7 @@ footer{
 
     #future{
         width: 246px;
-        height: 610px;
+        height: auto;
         left: 40px;
     }
 
