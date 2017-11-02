@@ -15,22 +15,29 @@ body{
     overflow: hidden;
     background-color: #333;
     font-family: Arial;
+
 }
 
-.navbar a {
+.navbar a  {
     float: left;
     font-size: 16px;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    color: white;
+    border-radius: 25px;
+}
+
+.navbar a .hover {
     border: 2px solid;
     border-radius: 25px;
     background-color: white;
+    
 }
-
 .dropdown {
     float: left;
     overflow: hidden;
+
 
 }
 
@@ -45,12 +52,19 @@ body{
 
 .navbar a:hover, .dropdown:hover .dropbtn {
     background-color: #6b6262;
+    border: 2px solid black;
+    border-radius: 25px;
     transition: 0.3s ease;
 }
 
-.hover{
+html body .hover {
+    border: none;
     border: 2px solid;
-    border-radius: 50px;
+    border-radius: 25px;
+}
+
+.hover:hover{
+    border: 2px solid black;
 
 }
 
@@ -616,17 +630,20 @@ footer{
      #info{
         margin-left: 45px;
         margin-top: 220px;
+        height: auto;
 
     }
 
      #info2{
         margin-left: 45px;
         margin-top: 20px;
+        height: auto;
     }
 
     #info3{
         margin-left: 45px;
         margin-top: 20px;
+        height: auto;
     }
 
     #flex1{
