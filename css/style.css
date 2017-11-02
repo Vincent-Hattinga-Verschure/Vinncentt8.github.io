@@ -76,6 +76,7 @@ html body .hover {
     z-index: 1;
     border-radius: 25px;
     
+    
 }
 
 .dropdown-content a {
@@ -85,6 +86,8 @@ html body .hover {
     text-decoration: none;
     display: block;
     text-align: left;
+    background-color: white;
+
 }
 
 .dropdown-content a:hover {
