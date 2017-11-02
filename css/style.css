@@ -24,6 +24,8 @@ body{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+      border: 2px solid;
+    border-radius: 25px;
 }
 
 .dropdown {
@@ -52,8 +54,6 @@ body{
     background-color: #f9f9f9;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-     border: 2px solid;
-    border-radius: 25px;
     z-index: 1;
 }
 
@@ -74,9 +74,7 @@ body{
 }
 
 .dropdown:hover .dropdown-content {
-    display: block;
-    border: 2px solid;
-    border-radius: 25px;
+    display: inline;
     transition: 0.3s ease;
 }
 
