@@ -75,6 +75,7 @@ html body .hover {
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.0);
     z-index: 1;
     border-radius: 25px;
+    
 }
 
 .dropdown-content a {
