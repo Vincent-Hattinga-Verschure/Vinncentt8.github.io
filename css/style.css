@@ -560,6 +560,8 @@ footer{
 
     body {
         background-color: lightblue;
+        width: auto;
+        height: auto;
     }
 
 
