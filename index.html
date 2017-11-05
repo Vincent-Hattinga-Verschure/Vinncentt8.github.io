@@ -4,12 +4,13 @@
   <title>Digitaal-Portfolio</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="./css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 </head>
 
 <body>
   <header>
     <div class="navbar">
-      <a href="index.html"><button onclick="myFunction()">Home</button></a>
+      <a href="index.html">Home</a>
     <div class="dropdown">
         <button class="dropbtn">Voorwoord</button>
         <div class="dropdown-content">
@@ -45,9 +46,9 @@
 
 
 <script>
-  function myFunction() {
-    alert("Hello! Click the menu items!");
-  }
+    $("document").ready( function () {
+        alert("Hello, click the menu items!");
+    }); 
 </script>
 
     <img src="Images/welcome.jpg" alt="welkom" title="welkom" id="welkom">
