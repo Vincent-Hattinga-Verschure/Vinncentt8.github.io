@@ -518,11 +518,14 @@ footer{
     width: 200px;
     border: 2px solid;
     border-radius: 25px;
+    margin-left: 400px;
 }
 
 #pdf:hover{
     border: 6px solid;
     border-radius: 25px;
+    margin-left: 395px;
+
 }
 
 
@@ -559,11 +562,9 @@ footer{
 @media screen and (max-width: 768px) {
 
     body {
-        background-image: url("../Images/back.jpeg");
-        background-repeat: no-repeat;
-        background-size: 100%;
-        z-index: -500;
-
+        background-color: lightblue;
+        width: auto;
+        height: auto;
     }
 
 
@@ -585,8 +586,7 @@ footer{
     }
 
     #pdf{
-        left: 40px;
-        top: 40px;
+        margin-left: 90px;
     }
 
     #course{
@@ -622,7 +622,7 @@ footer{
         height: auto;
         position: absolute;
         left: 26px;
-        top: 870px;;
+        top: 900px;
     }
 
     #welkom{
