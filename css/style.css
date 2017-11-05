@@ -559,9 +559,11 @@ footer{
 @media screen and (max-width: 768px) {
 
     body {
-        background-color: lightblue;
-        width: auto;
-        height: auto;
+        background-image: url("../Images/back.jpeg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        z-index: -500;
+
     }
 
 
