@@ -729,17 +729,13 @@ body{
     }
 
     #beroepfooter{
-    position: relative;
-    right: 0;
-    top: 1500px;
-    text-align: right;
+    position: fixed;
+    bottom: 0px;
+}
     }
 
     #opleidingfooter{
-    position: relative;
-    right: 0;
-    top: 1500px;
-    text-align: right;
-    }
+    position: fixed;
+    bottom: 0px;
 }
 
