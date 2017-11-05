@@ -6,8 +6,10 @@
 body{
     background-image: url("../Images/back.jpeg");
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: 100%;
     z-index: -500;
+
 
 }
 
@@ -561,18 +563,25 @@ footer{
 
 @media screen and (max-width: 768px) {
 
-    body {
+body{
+        background-image: url("../Images/back.jpeg");
+        background-repeat: no-repeat;
         background-color: lightblue;
-        width: auto;
-        height: auto;
-    }
+        background-attachment: fixed;
+        background-size: 100%;
+        z-index: -500;
+
+
+} }
 
 
     #future{
-        width: 246px;
+        width: 215px;
         height: auto;
-        left: 40px;
-        padding: 18px;
+        position: absolute;
+        left: 58px;
+        top: 365px;
+        margin: 0 auto;
     }
 
     #imgpdf{
@@ -596,6 +605,7 @@ footer{
         left: 58px;
         top: 365px;
         margin: 0 auto;
+        padding: 20px;
     }
 
     #course7{
@@ -611,18 +621,19 @@ footer{
     }
 
     #app{
-        height: auto;
         position: absolute;
         left: 66px;
         top: 113px;
 
+
     }
 
     #app1{
-        height: auto;
         position: absolute;
-        left: 26px;
-        top: 950px;
+        left: 66px;
+        top: 113px;
+        width: 220px;
+        height: 220px;
     }
 
     #welkom{
@@ -717,6 +728,20 @@ footer{
     border-radius: 25px;
     position: absolute;
     width: 217px;
+    }
+
+    #beroepfooter{
+    position: relative;
+    right: 0;
+    top: 970px;
+    text-align: right;
+    }
+
+    #opleidingfooter{
+    position: relative;
+    right: 0;
+    top: 1183px;
+    text-align: right;
     }
 }
 
