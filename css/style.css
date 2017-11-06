@@ -617,6 +617,10 @@ body{
 } 
 
 
+#socialbar{
+    float: left;
+}
+
     #future{
         width: 215px;
         height: auto;
@@ -786,4 +790,3 @@ body{
     text-align: right;
     }
 }
-
