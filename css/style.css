@@ -626,7 +626,7 @@ body{
         height: auto;
         position: absolute;
         left: 58px;
-        top: 395px;
+        top: 440px;
         margin: 0 auto;
     }
 
@@ -649,7 +649,7 @@ body{
         height: auto;
         position: absolute;
         left: 58px;
-        top: 435px;
+        top: 480px;
         margin: 0 auto;
         padding: 20px;
     }
@@ -669,7 +669,7 @@ body{
     #app{
         position: absolute;
         left: 66px;
-        top: 175px;
+        top: 222px;
 
 
     }
@@ -677,7 +677,7 @@ body{
     #app1{
         position: absolute;
         left: 66px;
-        top: 150px;
+        top: 200px;
         width: 220px;
         height: 220px;
     }
