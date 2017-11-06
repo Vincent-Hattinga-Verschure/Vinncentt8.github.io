@@ -580,23 +580,23 @@ footer{
 
 /* Facebook */
 .fa-facebook {
-    background: #3B5998;
+    background-color: #3B5998;
     color: white;
 }
 
 /* Twitter */
 .fa-twitter {
-    background: #55ACEE;
+    background-color: #55ACEE;
     color: white;
 }
 /*Google*/
 .fa-google-plus{
-    background: #d34836;
+    background-color: #d34836;
     color: white;
 }
 /*Pinterest*/
 .fa-pinterest-p{
-    background: #c8232c;
+    background-color: #c8232c;
     color: white;
 }
 
