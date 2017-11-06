@@ -602,6 +602,7 @@ footer{
 
 #socialbar{
     float: right;
+    padding: 10px;
 }
 
 /*@media query(mobiele versie)*/
