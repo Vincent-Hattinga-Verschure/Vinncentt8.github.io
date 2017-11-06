@@ -13,6 +13,9 @@ body{
 
 }
 
+.hover:hover{
+
+}
 .navbar {
     overflow: hidden;
     background-color: #333;
@@ -560,7 +563,48 @@ footer{
     margin-top: 20px;
     align-items: center;
 }
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
 
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+/*Google*/
+.fa-google-plus{
+    background: #d34836;
+    color: white;
+}
+/*Pinterest*/
+.fa-pinterest-p{
+    background: #c8232c;
+    color: white;
+}
+
+#socialbar{
+    float: right;
+}
+
+/*@media query(mobiele versie)*/
 @media screen and (max-width: 768px) {
 
 body{
