@@ -686,7 +686,7 @@ body{
         width: 300px;
         height: 100px;
         left: 30px;
-        top: 150px;
+        top: 220px;
     }
 
     #foto{
@@ -780,14 +780,14 @@ body{
     #beroepfooter{
     position: relative;
     right: 0;
-    top: 1420px;
+    top: 1490px;
     text-align: right;
     }
 
     #opleidingfooter{
     position: relative;
     right: 0;
-    top: 1420px;
+    top: 1490px;
     text-align: right;
     }
 }
